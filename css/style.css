@@ -493,3 +493,28 @@ CTA
   width: 100%;
   height: 100%;
 }
+
+/*--------------------------------
+  フッター
+---------------------------------*/
+.footer {
+  padding: 40px 30px;
+  background-color: #000;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.snsShare-list {
+  display: flex;
+  column-gap: 10px;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
