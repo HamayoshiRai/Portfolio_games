@@ -518,3 +518,63 @@ CTA
   letter-spacing: 0.05em;
   color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .btn {
+    width: 170px;
+    font-size: 16px;
+    padding: 20px 0;
+  }
+
+  .btn:hover {
+    box-shadow: none;
+  }
+
+  .headingPrimary {
+    font-size: 50px;
+    margin-bottom: 45px;
+  }
+
+  .headingPrimary::before {
+    bottom: -15px;
+    width: 60px;
+    height: 6px;
+  }
+
+  /* レイアウト */
+  .container {
+    padding: 0 20px;
+  }
+
+  /* ヘッダー */
+  .header-inner {
+    height: 60px;
+    padding: 0 20px;
+  }
+
+  .header-logo {
+    width: 120px;
+  }
+
+  .gnav-list {
+    column-gap: 20px;
+  }
+
+  .gnav-item {
+    font-size: 13px;
+  }
+
+  .gnav-cta {
+    display: none;
+  }
+  .gnav-audio {
+    position: absolute;
+    right: 20px;
+    bottom: -20px;
+  }
+}
