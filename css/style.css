@@ -577,4 +577,35 @@ CTA
     right: 20px;
     bottom: -20px;
   }
+
+  /* メインビジュアル */
+  .mv::after {
+    width: 200px;
+    height: 30px;
+  }
+
+  .mv-label {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .mv-title {
+    font-size: 76px;
+  }
+
+  .mv-subtitle {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  .newsBox {
+    right: 30px;
+    bottom: 50px;
+    width: 200px;
+  }
+
+  .newsBox p {
+    font-size: 12px;
+    padding-left: 200px;
+  }
 }
