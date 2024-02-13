@@ -608,4 +608,41 @@ CTA
     font-size: 12px;
     padding-left: 200px;
   }
+
+  /* ストーリー */
+  .story {
+    padding: 50px 0;
+  }
+
+  .story-columnWrap {
+    row-gap: 60px;
+  }
+
+  .story-column {
+    display: flex;
+    flex-direction: column;
+    column-gap: 80px;
+  }
+
+  .story-column:nth-child(2n) {
+    flex-direction: column;
+  }
+
+  .story-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .story-text {
+    margin-bottom: 30px;
+  }
+
+  .story-text p {
+    font-size: 15px;
+  }
+
+  .story-img {
+    width: 85%;
+    margin: 0 auto;
+  }
 }
