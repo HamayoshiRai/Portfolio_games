@@ -645,4 +645,39 @@ CTA
     width: 85%;
     margin: 0 auto;
   }
+
+  /* CTA */
+  .cta {
+    padding: 70px 0;
+  }
+
+  .cta::before,
+  .cta::after {
+    width: 200px;
+    height: 30px;
+  }
+
+  .cta::before {
+    background-position: 100% 0;
+  }
+
+  .cta-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .spCTA {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+  }
+
+  .spCTA .btn {
+    width: 100%;
+    font-size: 14px;
+  }
 }
