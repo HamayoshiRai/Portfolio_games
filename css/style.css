@@ -680,4 +680,31 @@ CTA
     width: 100%;
     font-size: 14px;
   }
+
+  /* トレイラー */
+  .trailer {
+    padding: 50px 0;
+  }
+
+  /* フッター */
+  .footer {
+    padding: 40px 20px 120px;
+  }
+
+  .footer-inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .snsShare {
+    margin-bottom: 30px;
+  }
+
+  .snsShare-list {
+    column-gap: 5px;
+  }
+
+  .footer-copyright {
+    font-size: 11px;
+  }
 }
