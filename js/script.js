@@ -34,4 +34,27 @@ $(function () {
     );
     return false;
   });
+
+  //オーディオの再生と停止
+  var audio = $("#js-audio").get(0);
+  var isPlaying = false;
+  audio.volume = 0.5;
+
+  $("#js-audio-play").click(function () {
+    if (isPlaying) {
+      audio.pause();
+      $(".audioSwitch").removeClass("on");
+      $(".audioSwitch-text").html("SOUND OFF");
+    } else {
+      audio.play();
+      $(".audioSwitch").addClass("on");
+      $(".audioSwitch-text").html("SOUND ON");
+    }
+  });
+  audio.onplaying = function () {
+    isPlaying = true;
+  };
+  audio.onpause = function () {
+    isPlaying = false;
+  };
 });
