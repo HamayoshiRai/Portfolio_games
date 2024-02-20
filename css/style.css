@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-  --main-color: #00fff5;
+  --main-color: #bb45ff;
 }
 
 /*--------------------------------
@@ -171,11 +171,11 @@ img {
 }
 
 .mv-titleArea {
-  /* position: absolute; */
+  position: absolute;
   top: 50%;
   left: 10%;
   color: #fff;
-  /* transform: translateY(-50%); */
+  transform: translateY(-50%);
 }
 
 .mv-label {
