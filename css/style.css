@@ -361,7 +361,7 @@ img {
   color: #fff;
   padding: 140px 0;
   background-color: #000;
-  background-image: url(./assets/img/bg_story.webp);
+  background-image: url(./assets/img/bg_story.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -456,16 +456,8 @@ CTA
   background-image: url(./assets/img/bg-line-top-black.svg);
 }
 
-.cta--01::after {
-  background-image: url(./assets/img/bg-line-bottom-color.svg);
-}
-
 .cta--02:before {
   background-image: url(./assets/img/bg-line-top-color.svg);
-}
-
-.cta--02::after {
-  background-image: url(./assets/img/bg-line-bottom-black.svg);
 }
 
 .spCTA {
@@ -520,7 +512,7 @@ CTA
 }
 
 /*--------------------------------
- ローディング
+  ローディング
 ---------------------------------*/
 .loading {
   position: fixed;
@@ -571,7 +563,7 @@ CTA
   top: 50%;
   left: 50%;
   font-size: calc(60px * 0.24);
-  color: #00fff5;
+  color: #bb45ff;
   transform: translate(-50%, -50%);
 }
 
@@ -585,7 +577,7 @@ CTA
   border-left-style: solid;
   border-radius: 50%;
   border-top-color: transparent;
-  border-left-color: #00fff5;
+  border-left-color: #bb45ff;
   animation-duration: 1s;
 }
 
