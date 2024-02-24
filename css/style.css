@@ -129,6 +129,10 @@ img {
   color: var(--main-color);
 }
 
+.gnav-item:hover {
+  text-shadow: 1px 1px 2px rgb(250, 192, 255);
+}
+
 .gnav-audio {
   position: absolute;
   right: 30px;
@@ -167,7 +171,7 @@ img {
   bottom: 0;
   width: 430px;
   height: 40px;
-  background-image: url(../assets/img/bg-line-bottom-black.svg);
+  background-image: url(../assets/img/bg-line-bottom-black.png);
 }
 
 .mv-titleArea {
@@ -361,7 +365,7 @@ img {
   color: #fff;
   padding: 140px 0;
   background-color: #000;
-  background-image: url(./assets/img/bg_story.jpg);
+  background-image: url(../assets/img/bg_story.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -453,16 +457,25 @@ CTA
 }
 
 .cta--01:before {
-  background-image: url(./assets/img/bg-line-top-black.svg);
+  background-image: url(../assets/img/bg-line-top-black.png);
+}
+
+.cta--01::after {
+  background-image: url(../assets/img/bg-line-bottom-color.png);
 }
 
 .cta--02:before {
-  background-image: url(./assets/img/bg-line-top-color.svg);
+  background-image: url(../assets/img/bg-line-top-color.png);
+}
+
+.cta--02::after {
+  background-image: url(../assets/img/bg-line-bottom-black.png);
 }
 
 .spCTA {
   display: none;
 }
+
 
 /*--------------------------------
   トレイラー
