@@ -35,6 +35,9 @@ $(function () {
     return false;
   });
 
+  //SP用のCTAボタンの表示
+  if (window.matchMedia("(max-width: 768px)").matches) {}
+
   //オーディオの再生と停止
   var audio = $("#js-audio").get(0);
   var isPlaying = false;
